@@ -5,7 +5,7 @@
 <h1>Products</h1>
     
 <div class="col-md-2">
-    <h4>Filter By Category</h4>
+    <h4>Fh4ter By Category</h4>
     <div class="list-group">
         @Html.ActionLink("All", "Index", null, new { @class=Request["Category"]==null ? "list-group-item active" : "list-group-item" })
         @foreach (var cat in Model.ProductCategories)
